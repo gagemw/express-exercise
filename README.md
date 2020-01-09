@@ -15,3 +15,9 @@ If it continues to fail and you're on a Mac OS make sure you've installed Xcode:
 > xcode-select --install
 
 If it continues to fail globally install webpack, webpack-cli, and webpack-dev-server
+
+## Extra Credit
+
+- Account for case handling in the input field
+- Create a post route to add animals to the DB
+> Use postman to send the data to your server
