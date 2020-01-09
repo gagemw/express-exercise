@@ -1,4 +1,4 @@
-# EXCERISE SUMMARY
+# EXERCISE SUMMARY
 
 Your goal is to connect the client to the server.
 > When the client types into the input field: "dog/cat/ferret/duck" and clicks the find animal button it should update the client accordingly
