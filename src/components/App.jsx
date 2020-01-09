@@ -20,6 +20,7 @@ class App extends React.Component {
   }
 
   buttonHandler() {
+    // get request
     fetch(`http://localhost:3000/${this.state.inputField}`)
       .then((result) => result.json())
       .then((data) => this.setState(data));
@@ -32,6 +33,7 @@ class App extends React.Component {
         <div>
           <img src={this.state.currentAnimalPicture}></img>
         </div>
+        {/* input field updates state in our component on change */}
         <input type="text" onChange={(e) => this.setState({ inputField: e.target.value })}></input>
         <button onClick={this.buttonHandler}>Find New Animal</button>
       </div>
