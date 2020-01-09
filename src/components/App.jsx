@@ -17,10 +17,12 @@ class App extends React.Component {
       currentAnimalCount: 4,
       inputField: '',
     };
+
+    this.buttonHandler = this.buttonHandler.bind(this);
   }
 
   buttonHandler() {
-    fetch(`localhost:3000/${this.state.inputField}`)
+    fetch(`http://localhost:3000/${this.state.inputField}`)
       .then((result) => result.json())
       .then((data) => this.setState(data));
   }
