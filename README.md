@@ -1,7 +1,7 @@
 # EXCERISE SUMMARY
 
 Your goal is to connect the client to the server.
-> When the client types into the input field, "dog/cat/ferret/duck" it should update the client accordingly
+> When the client types into the input field: "dog/cat/ferret/duck" and clicks the find animal button it should update the client accordingly
 
 You should not need to touch this /src folder if you do it *correctly.*
 
