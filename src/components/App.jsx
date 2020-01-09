@@ -17,6 +17,8 @@ class App extends React.Component {
       currentAnimalCount: 4,
       inputField: '',
     };
+
+    this.buttonHandler = this.buttonHandler(this);
   }
 
   buttonHandler() {
