@@ -18,7 +18,7 @@ class App extends React.Component {
       inputField: '',
     };
 
-    this.buttonHandler = this.buttonHandler(this);
+    this.buttonHandler = this.buttonHandler.bind(this);
   }
 
   buttonHandler() {
