@@ -11,6 +11,4 @@ const animals = {
   ferretCount: 3,
 };
 
-module.exports = {
-  animals,
-};
+module.exports = animals
